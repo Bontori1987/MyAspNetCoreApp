@@ -26,5 +26,6 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v2
       with:
+        context: ./523C0021_HuaThucNhi_Lab10_SourceCode/MyAspNetCoreApp
         push: true
-        tags: yourdockerhubusername/myaspnetcoreapp:latest
+        tags: bontori/myaspnetcoreapp:latest
